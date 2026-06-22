@@ -1,0 +1,37 @@
+.qs-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.h1qs {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.qs-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.qs-text {
+  max-width: 600px;
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.qs-image {
+  max-width: 300px;
+}
+
+.imgqs {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}

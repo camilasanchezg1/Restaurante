@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/css/edicion.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    
+
+
+</head>
+<body>
+   
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Atención al cliente</span>
+                        <span class="number">300-000-0000</span>
+                    </div>
+                </div>
+                <div class="container-logo">
+                    <i class="fa-solid fa-utensils"></i>
+                    <h1 class="logo"><a href="../index.html">Restaurante Parrilla la Cabaña</a></h1>
+                </div>
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <div class="content-shopping-cart"></div>
+                    <span class="text">Carrito</span>
+                    <span class="number">(0)</span>
+                </div>
+            </div>
+        </div>
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#">Menú</a></li>
+                    <li><a href="contactanos.html">Contáctenos</a></li>
+                    <li><a href="Registrarse.php">Registrarse</a></li>
+                    <li><a href="quienesomos.html">Nosotros</a></li>
+                    <li><a href="servicios.php">Servicios de Mesa</a></li>
+                </ul>
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..."/>
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>  
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+  
+</style>
+</head>
+<body>
+  <div class="menu-container"> 
+    <div class="section-title">Desayunos ☀️🍽️</div>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="../img/Granola.png" alt="Granola">
+            <div class="menu-item-content">
+                <h4>Granola 🥣</h4>
+                <p>Granola, yogurt, fruta.</p>
+                <span class="price">$12.000</span>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="../img/Huevos Rancheros.png" alt="Huevos Rancheros">
+            <div class="menu-item-content">
+                <h4>Huevos Rancheros 🍳</h4>
+                <p>Tortilla de huevo, jamón, maíz y queso, tomate cherry, lechuga y aguacate.</p>
+                <span class="price">$14.000</span>
+            </div>
+        </div>
+    </div>
+  
+    <div class="menu-container">
+      <div class="section-title">Platos Fuertes 🍽️🔥</div>
+      <div class="menu-grid">
+          <div class="menu-item">
+              <img src="../img/Angus al Salmón.jpg" alt="Angus al Salmón">
+              <div class="menu-item-content">
+                  <h4>Angus al Salmón 🥩🐟</h4>
+                  <p>Exquisito corte de carne Angus a la parrilla con salsa de salmón.</p>
+                  <span class="price">$49.500</span>
+              </div>
+          </div>
+          <div class="menu-item">
+              <img src="../img/baby beef.jpg" alt="Baby Beef">
+              <div class="menu-item-content">
+                  <h4>Baby Beef 🥩🔥</h4>
+                  <p>Un corte tierno y jugoso, asado a la perfección.</p>
+                  <span class="price">$54.700</span>
+              </div>
+          </div>
+          <div class="menu-item">
+              <img src="../img/Canelones a la Fiorentina.jpg" alt="Canelones a la Fiorentina">
+              <div class="menu-item-content">
+                  <h4>Canelones a la Fiorentina 🍝</h4>
+                  <p>Delicados canelones rellenos de espinaca y ricotta.</p>
+                  <span class="price">$35.000</span>
+              </div>
+          </div>
+          <div class="menu-item">
+              <img src="../img/Carpaccio de Salmón.jpg" alt="Carpaccio de Salmón">
+              <div class="menu-item-content">
+                  <h4>Carpaccio de Salmón 🐟</h4>
+                  <p>Finas láminas de salmón fresco, marinadas en aceite.</p>
+                  <span class="price">$50.000</span>
+              </div>
+          </div>
+          <div class="menu-item">
+              <img src="../img/Ceviche Rocoto.png" alt="Ceviche Rocoto">
+              <div class="menu-item-content">
+                  <h4>Ceviche Rocoto 🐟🌶️</h4>
+                  <p>Fresco pescado marinado en limón con un toque de rocoto.</p>
+                  <span class="price">$20.000</span>
+              </div>
+          </div>
+          <div class="menu-item">
+              <img src="../img/Costilla de cerdo.jpg" alt="Costilla de cerdo">
+              <div class="menu-item-content">
+                  <h4>Costilla de cerdo🥩🔥</h4>
+                  <p>Jugosas costillas de cerdo, cocidas a fuego lento y glaseadas con una salsa especial.</p>
+                  <span class="price">$36.000</span>
+              </div>
+          </div>
+          <div class="menu-item">
+              <img src="../img/Hamburguesa Toscana.jpg" alt="Hamburguesa Toscana">
+              <div class="menu-item-content">
+                  <h4>Hamburguesa Toscana🍔</h4>
+                  <p>Carne a la parrilla con queso mozzarella, tomate seco, rúcula y salsa pesto.</p>
+                  <span class="price">$33.000</span>
+              </div>
+          </div>
+          <div class="menu-item">
+              <img src="../img/Langostinos al Limón.jpeg" alt="Langostinos al Limón">
+              <div class="menu-item-content">
+                  <h4>Langostinos al Limón🥠🍋</h4>
+                  <p>Langostinos salteados en mantequilla y ajo con un toque de limón.</p>
+                  <span class="price">$61.000</span>
+              </div>
+          </div>
+          <div class="menu-item">
+              <img src="../img/Punta de anca.jpeg" alt="Punta de Anca">
+              <div class="menu-item-content">
+                  <h4>Punta de anca 🥩🔥</h4>
+                  <p>Corte jugoso de res, asado a la parrilla para resaltar su sabor y terneza.</p>
+                  <span class="price">$65.000</span>
+              </div>
+          </div>
+          <div class="menu-item">
+              <img src="../img/tabla de carnes.avif" alt="Tabla de Carnes">
+              <div class="menu-item-content">
+                  <h4>Tabla de Carnes🥩🔥</h4>
+                  <p>Selección premium de cortes a la parrilla: baby beef, punta de anca, lomo de cerdo y chorizo.</p>
+                  <span class="price">$105.000</span>
+              </div>
+          </div>
+          <div class="menu-item">
+              <img src="../img/tilapia en salpicon de camarones.jpg " alt="Tilapia en Salpicón de Camarones">
+              <div class="menu-item-content">
+                  <h4>Tilapia en Salpicón de Camarones🐟🥤</h4>
+                  <p>Filete de tilapia a la plancha con un fresco salpicón de camarones en vinagreta de cítricos.</p>
+                  <span class="price">$60.000</span>
+              </div>
+          </div>
+          <div class="menu-item">
+              <img src="../img/Tostadas de Camarón.png" alt="Tostadas de Camarón">
+              <div class="menu-item-content">
+                  <h4>Tostadas de Camarón🍞🥤</h4>
+                  <p>Crujientes tostadas con camarones marinados en limón, cilantro, tomate y aguacate.</p>
+                  <span class="price">$87.000</span>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="section-title">Menú Infantil🍽️👦👧</div>
+  <div class="menu-grid">
+      <div class="menu-item">
+          <img src="../img/strips de pollo apanados.webp" alt="Strips de Pollo Apanados">
+          <div class="menu-item-content">
+              <h4>Strips de Pollo Apanados🍽️👦👧</h4>
+              <p>Strips de pollo, con patatas fritas y queso fresco, para acompañar a tus niños.</p>
+              <span class="price">$25.000</span>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="../img/pasta con pollo.webp" alt="Pasta con Pollo">
+          <div class="menu-item-content">
+              <h4>Pasta con Pollo🍽️👦👧</h4>
+              <p>Pasta de pollo, con queso fresco, para acompañar a tus niños.</p>
+              <span class="price">$27.600</span>
+          </div>
+      </div>
+  </div>
+
+  <div class="section-title">Postres🍰🍫</div>
+  <div class="menu-grid">
+      <div class="menu-item">
+          <img src="../img/Cookie Cream (Red Velvet).jpg" alt="Cookie Cream (Red Velvet)">
+          <div class="menu-item-content">
+              <h4>Cookie Cream (Red Velvet)🍪🍫</h4>
+              <p>Torta esponjosa con el clásico sabor Red Velvet, rellena de trozos de chocolate blanco para un toque dulce e irresistible.</p>
+              <span class="price">$14.000</span>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="../img/Cookie Croissant.jpg" alt="Cookie Croissant">
+          <div class="menu-item-content">
+              <h4>Cookie Croissant🥐🍪</h4>
+              <p>La fusión perfecta entre una galleta y un croissant: crujiente por fuera, suave y hojaldrada por dentro, con un delicado toque de mantequilla y chocolate.</p>
+              <span class="price">$14.000</span>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="../img/Genovesa.png" alt="Genovesa">
+          <div class="menu-item-content">
+              <h4>Genovesa 🍰</h4>
+              <p>Bizcocho esponjoso y húmedo, bañado en una mezcla de leches y cubierto con crema suave. Un clásico irresistible de textura ligera y sabor delicado.</p>
+              <span class="price">$40.000</span>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="menu-container"> 
+  <div class="section-title">Bebidas 🍺🍷</div>
+  <div class="menu-grid">
+      <div class="menu-item">
+          <img src="../img/Cerveza Artesanal.png" alt="Cerveza Artesanal">
+          <div class="menu-item-content">
+              <h4>Cerveza Artesanal 🍺</h4>
+              <p>Selección de cervezas artesanales con sabores únicos y auténticos, elaboradas con ingredientes de la más alta calidad.</p>
+              <span class="price">$10.000</span>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="../img/Cerveza Nacional e Importada.jpg" alt="Cerveza Nacional e Importada">
+          <div class="menu-item-content">
+              <h4>Cerveza Nacional e Importada 🍺</h4>
+              <p>Amplia selección de cervezas, desde clásicas marcas nacionales hasta exclusivas opciones importadas. Disfruta de diferentes estilos y sabores para acompañar tu comida.</p>
+              <span class="price">$7.500</span>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="../img/Cócteles.png" alt="Cócteles">
+          <div class="menu-item-content">
+              <h4>Cócteles 🍷</h4>
+              <p>Desde Margaritas y Mojitos hasta creaciones especiales con ingredientes únicos.</p>
+              <span class="price">$21.000</span>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="../img/Jugo en leche y agua.png" alt="Jugos en leche y agua">
+          <div class="menu-item-content">
+              <h4>Jugos en leche y agua 100% natural 🥤</h4>
+              <p>Preparados en agua o leche con frutas frescas.</p>
+              <span class="price">$5.000</span>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="../img/Limonadas.png" alt="Limonadas">
+          <div class="menu-item-content">
+              <h4>Limonadas 100% naturales 🍋🥤</h4>
+              <p>Clásica, de hierbabuena, frutos rojos, mango o coco, perfectas para refrescarte.</p>
+              <span class="price">$5.000</span>
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="../img/Sodificadas.jpg" alt="Sodificadas">
+          <div class="menu-item-content">
+              <h4>Sodificadas 🍹</h4>
+              <p>Cocteles sin alcohol con soda y frutas naturales.</p>
+              <span class="price">$9.000</span>
+          </div>
+      </div>
+  </div>
+</div>
+
+      </section>
+ 
+
+   
+   
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>Dirección: 71 Pennington lane Vernon Rockville, CT 06066</li>
+                        <li>Teléfono: 123-456-789</li>
+                        <li>Email: RestaParrilla@support.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook"> <i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="twitter"> <i class="fa-brands fa-twitter"></i></span>
+                        <span class="youtube"> <i class="fa-brands fa-youtube"></i></span>
+                        <span class="pinterest"> <i class="fa-brands fa-pinterest-p"></i></span>
+                        <span class="instagram"> <i class="fa-brands fa-instagram"></i></span>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">information</p>
+                     <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Informacion Delivery</a></li>
+                        <li><a href="#">Politicas de Privacidad</a></li>
+                        <li><a href="#">Terminos y condiciones</a></li>
+                        <li><a href="#">Contactenos</a></li>
+                     </ul>
+                </div>
+
+                <div class="my-account">
+                    <p class="title-footer">Mi cuenta</p>
+
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Historial de ordenes</a></li>
+                        <li><a href="#">Lista de deseos</a></li>
+                        <li><a href="#">Boletin</a></li>
+                        <li><a href="#">Reembolso</a></li>
+                    </ul>
+                </div>
+
+                <div class="newletter">
+                    <p class="title-footer">Boletin informativo</p>
+
+                    <div class="content">
+                        <p>
+
+                            suscribete a nuestros boletines ahora y mantente al
+                            dia con nuevas recetas y ofertas exclusivas.
+                        </p>
+                        <input type="email" placeholder="Ingresa el correo aqui...">
+                        <button>Suscribete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Desarrollado por Juan, Gustavo, Camila &copy; 2025</p>
+                <img src="../img/medio de pago.png" alt="Pagos">
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+
+    <script defer src="https://kit.fontawesome.com/4c022070bc.js" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
